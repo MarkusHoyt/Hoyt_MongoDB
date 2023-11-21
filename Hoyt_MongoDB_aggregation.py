@@ -2,7 +2,7 @@
 """
 Created on Sat Jul 22 21:26:37 2023
 
-@author: Lowhorn
+@author: Mark Hoyt
 """
 
 #import pymongo
@@ -24,7 +24,7 @@ collection.aggregate(query) is the syntax for aggregation pipelines in Python.
 
 https://pymongo.readthedocs.io/en/stable/examples/aggregation.html
 """
-myclient = pymongo.MongoClient("mongodb+srv://hoytm:fYej1ykh1cL8G15H@cluster0.xtrafrh.mongodb.net/?retryWrites=true&w=majority")
+myclient = pymongo.MongoClient("mongodb+srv://hoytm:password@cluster0.xtrafrh.mongodb.net/?retryWrites=true&w=majority")
 mydb = myclient["sample_mflix"]
 mycol = mydb["movies"]
 
